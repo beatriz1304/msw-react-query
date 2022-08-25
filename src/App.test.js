@@ -28,5 +28,5 @@ test('renders mock data "Hello"', async () => {
     </QueryClientProvider>
   )
 
-  await waitFor(() => expect(screen.getByText(/loading/i)).toBeInTheDocument())
+  await waitFor(() => expect(screen.getByText(/loading.../i)).toBeInTheDocument())
 })
